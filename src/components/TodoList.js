@@ -49,9 +49,10 @@ export default function TodoList() {
   });
 
   useEffect(() => {
-    console.log("calling use effect");
     const storageTodos = JSON.parse(localStorage.getItem("todos"));
-    setTodos(storageTodos);
+    if (storageTodos) {
+      setTodos(storageTodos);
+    }
   }, []);
 
   function changeDisplayedType(e) {
