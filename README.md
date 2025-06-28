@@ -25,8 +25,7 @@ To run the project locally:
 ### `git clone`
 
 ```bash
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
+https://github.com/Abdelghfarsalah/TodoAppUsingReact.git
 ```
 
 ### `npm install`
